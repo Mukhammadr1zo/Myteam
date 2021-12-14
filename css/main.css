@@ -1,31 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Inconsolata:wght@600;800&family=Josefin+Sans:ital,wght@0,700;1,400&family=Livvic:ital,wght@0,600;0,700;1,400;1,500;1,700&family=Poppins:wght@400;500;600;700;800&family=Road+Rage&family=Roboto:ital,wght@0,700;1,900&display=swap');
+
 html {
     height: 100%;
     scroll-behavior: smooth;
     box-sizing: border-box;
   }
-  
+
   *,
   *::before,
   *::after {
     box-sizing: border-box;
   }
-  
+
   body {
-   
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-family: sans-serif;
+    font-family: 'Livvic', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background-color: #014E56;
   }
-  
+
   img {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
   }
-  
+
   .visually-hidden {
     clip: rect(0 0 0 0);
     -webkit-clip-path: inset(50%);
@@ -36,74 +38,166 @@ html {
     white-space: nowrap;
     width: 1px;
   }
-  
-  body {
-    background-color: #014E56;
+
+  .container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
-  
-  .contact-main {
-    background-image: url(../images/contact-back.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
-  .contact-me {
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    max-width: 1152px;
-  }
-  
-  .contact-left {
-    width: 100%;
-    max-width: 380px;
-  }
-  
-  .contact-left__heading {
-    margin: 0;
-    padding: 0;
-    font-family: Livvic;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 100px;
-    color: #FFFFFF;
-    padding-bottom: 16px;
-  }
-  
-  .contact-left__heading2 {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 16px;
-    font-family: Livvic;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 48px;
-    color: #F67E7E;
-  }
-  
-  .contact-left__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 16px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact-left__item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px;
-  }
-  
-  .left-list__desc {
-    font-family: Livvic;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 28px;
-    color: #FFFFFF;
-    margin-left: auto;
-  }
+
+
+/* HEADER CSS */
+.header-container{
+  background-image:url("../images/Groupbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width:100%;
+  min-height: 700px;
+}
+.link{
+   font-weight: 900;
+}
+
+.btn{
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.find{
+  margin: 0;
+  padding: 0;
+  max-width: 620px;
+  min-height: 200px;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+
+.span{
+  color: #F67E7E;
+}
+
+.desc{
+  padding: 0;
+  margin: 0;
+  max-width: 445px;
+  min-height: 112px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.find__hero{
+  margin-top: 139px;
+}
+
+.hr{
+  margin-bottom: 79px !important;
+  padding: 0;
+  max-width: 50px;
+  min-height: 4px;
+  background: #79C8C7;
+  background-size: cover;
+}
+
+.manage__container{
+  background-image: url(../images/Group20bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width :1440px;;
+  min-height: 684px;
+}
+
+.manage__hero{
+ padding: 0;
+  margin:0;
+}
+
+.manage-headingg{
+  padding-top: 198px;
+  padding-left: 130px;
+  max-width: 589px;
+  min-height: 144px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.hrr{
+  margin-bottom: 59px !important;
+  padding: 0;
+  max-width: 50px;
+  min-height: 4px;
+  background: #ee6363;
+  background-size: cover;
+}
+
+.manage-list{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 189px;
+  min-height: 346px;
+  list-style: none;
+}
+.manage-item{
+  display: flex;
+  align-items: center;
+  color: #F67E7E;
+  margin: 0;
+  padding: 0;
+}
+
+.manage-img{
+  max-width: 72px;
+  min-height: 72px;
+  margin-right: 23px;
+}
+
+.manage-span{
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.manage-desc{
+  font-size: 10px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER CSS */

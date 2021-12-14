@@ -1,51 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,600;0,700;1,500;1,700&display=swap" rel="stylesheet">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,600;0,700;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <title>Contact</title>
 </head>
+
 <body>
-    <main class="contact-main">
-        <section class="container contact-me">
-            <div class="contact-left">
-                <h2 class="contact-left__heading">
-                    Contact
-                </h2>
-                <h3 class="contact-left__heading2">
-                    About us
-                </h3>
-                <ul class="contact-left__list">
-                    <li class="contact-left__item">  
-                        <img src="./images/network.png" alt="#" width="72" height="72">
-                        <p class="left-list__desc">
-                            The quality of our talent network
-                        </p>
-                    </li>
-                    <li class="contact-left__item">  
-                        <img src="./images/software.png" alt="#" width="72" height="72">
-                        <p class="left-list__desc">
-                            The quality of our talent network
-                        </p>
-                    </li>
-                    <li class="contact-left__item">  
-                        <img src="./images/innovation.png" alt="#" width="72" height="72">
-                        <p class="left-list__desc">
-                            The quality of our talent network
-                        </p>
-                    </li>
-                </ul>
+  <header>
+    <div class="container header-container">
+      <div class="header__hero">
+        <nav class="navbar navbar-expand-sm navbar-light pt-5 bg-#014E56 ">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand link text-light" href="#">myteam</a>
+              <ul class="navbar-nav me-auto mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">about</a>
+                </li>
+              </ul>
+              <button class="btn btn-outline-success rounded-pill " type="submit">contact us</button>
             </div>
-        </section>
+          </div>
+        </nav>
+        <div class="container">
+          <div class="row">
+            <div class="find__hero d-flex  justify-content-between
+          align-items-center">
+              <h2 class="find heading col-sm-6 h1">Find the best <span class="span">talent</span></h2>
+              <div class="find__top">
 
-    </main>
+                <hr class="hr ">
+                <p class="desc col">
+                  Finding the right people and building high performing teams can be hard. Most companies aren’t tapping
+                  into the abundance of global talent. We’re about to change that.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+   <main>
+     <section class="manage mt-0">
+       <div class="container manage__container">
+         <div class="manage-hero  d-flex align-item-center">
+           <hr class="hrr">
+            <h2 class="manage-headingg h1 mb-0">
+              Build & manage distributed teams like no one else.
+            </h2>
+              <ul class="row manage-list">
+                  <li class="col manage-item mt-4">
+                    <img class="manage-img" src="./images/network.png" alt="img" width="72" height="72">
+                    <div class="manage-top">
+                      <span class="manage-span fs-4 fw-bold
+                      ">Experienced Individuals</span>
+                      <p class="manage-desc text-light fs-5 mt-4 fw-bold">Our network is made up of highly experienced professionals who are passionate about what they do.</p>
+                    </div>
+                  </li>
 
-    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+                  <li class="col manage-item mt-4">
+                    <img class="manage-img" src="./images/software.png" alt="img" width="72" height="72">
+                    <div class="manage-top">
+                      <span class="manage-span fs-4 fw-bold
+                      ">Easy to Implement</span>
+                      <p class="manage-desc text-light fs-5 mt-4 fw-bold">Our processes have been refined over years of implementation meaning our teams always deliver.</p>
+                    </div>
+                  </li>
+
+                  <li class="col manage-item mt-4">
+                    <img class="manage-img" src="./images/innovation.png" alt="img" width="72" height="72">
+                    <div class="manage-top">
+                      <span class="manage-span fs-4 fw-bold
+                      ">Enhanced Productivity</span>
+                      <p class="manage-desc text-light fs-5 mt-4 fw-bold">Our network is made up of highly experienced professionals who are passionate about what they do.</p>
+                    </div>
+                  </li>
+              </ul>
+         </div>
+       </div>
+     </section>
+   </main>
+  <script src="./bootstrap/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
