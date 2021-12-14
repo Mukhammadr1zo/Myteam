@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,600;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar navbar-expand-sm navbar-light pt-5 bg-#014E56 ">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                  aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <a class="navbar-brand link text-light" href="contact.html">myteam</a>
+                  <ul class="navbar-nav me-auto mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active text-light" aria-current="page" href="#">home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">about</a>
+                    </li>
+                  </ul>
+                  <button class="btn btn-outline-success rounded-pill " type="submit">contact us</button>
+                </div>
+              </div>
+            </nav>
+            
+    
+    </header>
+
+    <main class="contact-main">
+        <section class="container contact-me justify-content-between mt-5">
+            <div class="contact-left">
+                <h2 class="contact-left__heading">
+                    Contact
+                </h2>
+                <h3 class="contact-left__heading2">
+                    About us
+                </h3>
+                <ul class="contact-left__list">
+                    <li class="contact-left__item">  
+                        <img src="./images/network.png" alt="#" width="72" height="72">
+                        <p class="left-list__desc">
+                            The quality of our talent network
+                        </p>
+                    </li>
+                    <li class="contact-left__item">  
+                        <img src="./images/software.png" alt="#" width="72" height="72">
+                        <p class="left-list__desc">
+                            The quality of our talent network
+                        </p>
+                    </li>
+                    <li class="contact-left__item">  
+                        <img src="./images/innovation.png" alt="#" width="72" height="72">
+                        <p class="left-list__desc">
+                            The quality of our talent network
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="contact-form  mt-5" action="" >
+                <div class="mb-3">
+                    <input type="text" class="contact-controller" name="user_name" placeholder="Name" >
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="contact-controller" name="user_email" placeholder="Email Address" >
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="contact-controller" name="company_name" placeholder="Company Name" >
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="contact-controller" name="title" placeholder="Title" >
+                </div>
+                <div class="mb-3">
+                    <textarea name="user_massage" class="contact-controller" placeholder="Massage" id="contact-textarea" cols="10" rows="0"></textarea>
+                </div>
+                <button class="btn btn-outline-success rounded-pill">Submit</button>
+                 
+            </form>
+        </section>
+
+    </main>
+
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
